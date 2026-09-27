@@ -4,6 +4,8 @@
 
 A web app for organizing and printing playtest proxies for the trading card game *Sorcery: Contested Realm*.
 
+**Try it:** [sorcery-web-app-chi.vercel.app](https://sorcery-web-app-chi.vercel.app/)
+
 - Import a deck list from a Curiosa deck link
 - Track owned vs. unowned cards using a Curiosa collection export
 - Drag cards into custom buckets to organize proxy sheets
