@@ -30,7 +30,7 @@ MOCK_DECK_NAME = "Test Proxy Run"
 print("--- Testing PDF Generation and Image Fetching (Phase 3) ---")
 
 # --- 2. Initialization ---
-# Load the actual CARD_DB to get the real S3 image URLs
+# Load the actual CARD_DB to get the real card image URLs
 load_card_db()
 
 if not CARD_DB:

@@ -1,6 +1,6 @@
 # Sorcery Deck Assembler
 
-> **Archived — no longer maintained.** Kept public as a portfolio piece; it may no longer work against Curiosa's current site.
+> **No longer actively developed.** Kept public as a portfolio piece; the Curiosa deck import may break if Curiosa changes its site.
 
 A web app for organizing and printing playtest proxies for the trading card game *Sorcery: Contested Realm*.
 
@@ -11,6 +11,8 @@ A web app for organizing and printing playtest proxies for the trading card game
 - Dark mode
 
 The project was also an experiment in building an app almost entirely through AI-assisted coding ("vibe coding"): a Flask API with ReportLab/fpdf2 for PDF generation and a React + TypeScript + Tailwind front end, deployed on Vercel.
+
+Card images are served by [card.cards.army](https://card.cards.army/), the image CDN for [spells.bar](https://spells.bar). `update_card_images.py` points every card in `card_data/master_cards.json` at its image there; re-run it after refreshing the card list with `data_setup.py`.
 
 This is a fan-made project and is not affiliated with or endorsed by Erik's Curiosa. *Sorcery: Contested Realm* and its card names, text and art belong to their respective owners.
 

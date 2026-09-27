@@ -21,14 +21,14 @@ if not CARD_DB:
 # NOTE: The real test uses the loaded CARD_DB.
 MOCK_METADATA = {
     "Adept Illusionist": {
-        "image_url": "s3-url-1",
+        "image_url": "image-url-1",
         "rarity": "Exceptional",
         "price_usd": 15.00,
         "mana_cost": 3,
         "image_file": "illusionist_slug.png"
     },
     "Mesmerism": {
-        "image_url": "s3-url-2",
+        "image_url": "image-url-2",
         "rarity": "Unique",
         "price_usd": 150.00,
         "mana_cost": 4,
@@ -36,14 +36,14 @@ MOCK_METADATA = {
     },
     # Added Diluvian Kraken here for robustness, although it should be in the real DB
     "Diluvian Kraken": {
-        "image_url": "s3-url-3",
+        "image_url": "image-url-3",
         "rarity": "Unique",
         "price_usd": 80.00,
         "mana_cost": 7,
         "image_file": "kraken_slug.png"
     },
     "Missing Card X": {
-        "image_url": "s3-url-3",
+        "image_url": "image-url-3",
         "rarity": "Ordinary",
         "price_usd": 1.00,
         "mana_cost": 1,

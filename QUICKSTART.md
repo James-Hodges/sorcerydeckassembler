@@ -15,7 +15,7 @@
 
 ### Option 1: Automatic (Recommended)
 ```bash
-cd /Users/james/Library/Mobile\ Documents/com~apple~CloudDocs/2\ Personal/SorceryWebApp
+# from the repository root
 ./start.sh
 ```
 
@@ -25,7 +25,7 @@ This starts both backend and frontend automatically.
 
 **Terminal 1 - Backend:**
 ```bash
-cd /Users/james/Library/Mobile\ Documents/com~apple~CloudDocs/2\ Personal/SorceryWebApp
+# from the repository root
 source .venv/bin/activate
 python3 -m flask --app api.index run
 ```
@@ -37,7 +37,7 @@ Expected output:
 
 **Terminal 2 - Frontend:**
 ```bash
-cd /Users/james/Library/Mobile\ Documents/com~apple~CloudDocs/2\ Personal/SorceryWebApp/frontend
+cd frontend
 npm run dev
 ```
 

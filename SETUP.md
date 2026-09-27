@@ -26,7 +26,7 @@ The backend is in `/api` directory and includes:
 
 **Test the backend:**
 ```bash
-cd /Users/james/Library/Mobile\ Documents/com~apple~CloudDocs/2\ Personal/SorceryWebApp
+# from the repository root
 python3 test_pdf_generation.py
 ```
 

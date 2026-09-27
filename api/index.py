@@ -230,7 +230,7 @@ def enrich_and_match_data(decklist: list, owned_collection: list, card_db: dict)
         card_name = deck_card['name']
         required_quantity = deck_card['quantity']
         
-        # Get master card metadata (S3 URL, Rarity, Price)
+        # Get master card metadata (image URL, rarity, price)
         master_data = card_db.get(card_name)
         
         # Determine owned quantity
